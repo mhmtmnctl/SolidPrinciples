@@ -1,0 +1,31 @@
+
+    Programcılar yıllar içerisinde sorunları çözmek için tasarım desenleri oluşturdular. Fakat
+sorunlar çözüldüyse de yeni sorunları da beraberinde getirmişti. Bu sorunlar karşısında çözüm
+olarak SOLID  ortaya çıkmıştır.
+
+    SOLID, 2000’li yılların başında Robert C. Martin tarafından nesne tabanlı programlama için
+ortaya çıkartılmıştır ve 5 ilkesi bulunmaktadır.
+
+
+
+        S ingle Responsibilty Principle
+        O pen-Close Principle
+        L iskov Substitution Principle
+        I nterface Segregation Principle
+        D ependency Inversion Principle
+
+
+
+        ---> S      Oluşturulan nesnelerin ya da fonksiyonların tek bir görevi olmalıdır.
+        Sadece kendisine verilen o görevi yapmalı ve ondan sorumlu olmalıdır.
+
+        ---> O      Oluşturulan nesnelerimiz ya da fonksiyonlarımız geliştirmeye açık ancak
+        değişime kapalı olmalıdır. projemizde önceden yazılan kodları değiştirerek
+        değil, var olan kodlara yeni eklemeler yaparak sorunları çözmeliyiz.
+
+        ---> L      Türeyen sınıflar base sınıfın bütün özelliklerini kullanmak zorundadır.
+
+        ---> I      Sınıflarımızın(nesnelerimizin) kullanmadıkları veya ihtiyaç duymadıkları
+        özelliklerin mümkün mertebe interfacelere ayrıştırılmasıdır.
+
+        ---> D      Ekstra açıklamay gerek yok, Spring deki @Autowired ın yapdığı, bağımlılıkların azaltılması
